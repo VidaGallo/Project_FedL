@@ -32,7 +32,8 @@ The federated learning approach is implemented and evaluated through various tes
 - **Additional Tests:** Extra tests and in-depth analysis on the FL approach.
 - **Communication Analysis:** Evaluation of communication costs + implementation of a reduced communication.
 - **Client Drift Analysis:** Study of client drift (local model divergence) in i.i.d. and non-i.i.d. scenarios.
-- **Extra Contribution:** As an additional contribution, a method was implemented to prevent frozen weights of the clients from being completely modified by the server.
+- **Extra Contribution:** A method was implemented to prevent frozen weights of the clients from being completely modified by the server.
+
 
 
 

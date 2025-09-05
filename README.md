@@ -7,11 +7,13 @@ The code explores centralized and federated training approaches for image classi
 The code is logically organized into three main sections: Data Exploration, Centralized Approach and Federated Approach.
 <br>
 
+
 ### 1. Data Exploration 
 This initial phase is dedicated to analyzing and understanding the dataset.
 
 - **Data Exploration Notebook:** Examines class distribution, variability, and key features of the dataset.
 <br>
+
 
 ### 2. Centralized Approach 
 This section contains experiments conducted in a centralized environment.
@@ -21,6 +23,7 @@ This section contains experiments conducted in a centralized environment.
 - **Additional Tests:** Extra tests and in-depth analysis on the centralized approach.
 <br>
 
+
 ### 3. Federated Learning Approach 
 The federated learning approach is implemented and evaluated through various tests and analyses.
 
@@ -29,5 +32,6 @@ The federated learning approach is implemented and evaluated through various tes
 - **Additional Tests:** Extra tests and in-depth analysis on the FL approach.
 - **Communication Analysis:** Evaluation of communication costs + implementation of a reduced communication.
 - **Client Drift Analysis:** Study of client drift (local model divergence) in i.i.d. and non-i.i.d. scenarios.
+
 
 

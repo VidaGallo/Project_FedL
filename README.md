@@ -3,10 +3,7 @@
 
 
 The repository contains independent Jupyter notebooks, each of which can be run separately. Some notebooks require input files in JSON format or previously saved pre-trained weights.<br>
-The code explores centralized and federated training approaches for image classification on the CIFAR-100 dataset using the pre-trained DINO ViT-S/16 model. Communication and client drift in the federated approaches are also analyzed.
-
-
-## Codebase Structure
+The code explores centralized and federated training approaches for image classification on the CIFAR-100 dataset using the pre-trained DINO ViT-S/16 model. Communication and client drift in the federated approaches are also analyzed.<br>
 The code is logically organized into three main sections: Data Exploration, Centralized Approach and Federated Approach.
 <br>
 
@@ -32,4 +29,5 @@ The federated learning approach is implemented and evaluated through various tes
 - **Additional Tests:** Extra tests and in-depth analysis on the FL approach.
 - **Communication Analysis:** Evaluation of communication costs + implementation of a reduced communication.
 - **Client Drift Analysis:** Study of client drift (local model divergence) in i.i.d. and non-i.i.d. scenarios.
+
 
